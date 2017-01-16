@@ -28,7 +28,7 @@ public final class Battleship {
         master = injector.getInstance(IMasterController.class);
         master.setInjector(injector);
         tui = new TUI(master);
-        new GUI(master);
+        //new GUI(master);
     }
     /**
      * MasterController of the entire game.
